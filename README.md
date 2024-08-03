@@ -1,7 +1,7 @@
 # 40xx-kernel-decomp
 The contains the decompiled BSP kernel that ships with the Anbernic RG40xx.
 
-The purpose of this is to make modifications to the joypad driver, as there are hard coded values in the driver built into the shipped kernel, and we have no sources.
+The purpose of this is to make modifications to the joypad driver, as there are hard coded values in the driver built into the shipped BSP kernel, and we have no sources.
 I have kept both the modded and stock kernel images in this project for comparison.
 
 The function you want to focus on in this project will be called "sticks".
@@ -11,6 +11,12 @@ In order to open this project, you will need to modify the OWNER in 40xx-kernel.
 
 Screenshots of the decomp:
 ![image](https://github.com/user-attachments/assets/d9dbeb73-8800-4f4d-a31d-6cc22a3a70fd)
+
+Modded:
 ![image](https://github.com/user-attachments/assets/769eb93a-54a6-4d03-9ac5-000b3ced64e9)
+
+Stock:
+![image](https://github.com/user-attachments/assets/1ff139ed-3c37-4737-94aa-eeab6440441e)
+
 
 I have modified this to a positive effect as seen here: https://x.com/TheGammaSqueeze/status/1819470408485425411
