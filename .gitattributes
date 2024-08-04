@@ -6,3 +6,4 @@
 40xx-kernel.rep/idata/00/~00000003.db filter=lfs diff=lfs merge=lfs -text
 40xx-kernel.rep/idata/00/~00000000.db/db.3.gbf filter=lfs diff=lfs merge=lfs -text
 40xx-kernel.rep/idata/00/~00000000.db/db.4.gbf filter=lfs diff=lfs merge=lfs -text
+*.gbf filter=lfs diff=lfs merge=lfs -text
