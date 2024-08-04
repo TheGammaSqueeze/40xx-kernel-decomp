@@ -1,5 +1,5 @@
-# 40xx-kernel-decomp
-This contains the decompiled BSP kernel that ships with the Anbernic RG40xx.
+# 40xx-kernel-decomp / 35xx-h-kernel-decomp
+This contains the decompiled BSP kernel that ships with the Anbernic RG40xx and 35XX-H.
 
 The purpose of this is to make modifications to the joystick driver, as there are hard coded values in the driver built into the shipped BSP kernel, and we have no sources.
 I have kept both the modded and stock kernel images in this project for comparison.
